@@ -91,7 +91,7 @@ const App: React.FC = () => {
 			</div>
 			<div className='container mx-auto w-full md:w-1/2 align-middle pt-20'>
 				<h1 className='text-4xl text-white ml-4 mb-5'>
-					Form Using React {step == 4 ? " Completed" : step + " of 3"}
+					Rablo Form React {step == 4 ? " Completed" : step + " of 3"}
 				</h1>
 				{step === 1 && (
 					<FormStep1
